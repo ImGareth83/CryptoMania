@@ -4,9 +4,14 @@
   "description": "_We're looking at your programming ability. It must not only work, it should be maintainable._",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node --experimental-modules --es-module-specifier-resolution=node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "csv-parse": "^5.2.1",
+    "node-fetch": "^3.2.6"
+  }
 }

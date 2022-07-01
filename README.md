@@ -1,4 +1,4 @@
-Basesd on the requirements, i planned and break down the challenge into smaller tasks:
+Based on the requirements, i planned and broken down the challenge into smaller tasks:
 
 1. read csv
 2. sort transaction by timestamp ascending
@@ -7,8 +7,10 @@ Basesd on the requirements, i planned and break down the challenge into smaller 
 5. async get the latest token price
 6. print out the token per value
 
-For maintenance sake, the code should be follow KISS principle - keep it simple stupid. another priciple should be cohesive, meaning each file should focus only one specific purpose.
+For maintenance sake, the code should follow KISS principle - keep it simple stupid. Another priciple is cohesive. This means each file should focus only a specific purpose.
 
-Index.js is the main app
-CryptoPrice.js is responsible of retrieving real-time prices
+Index.js is the main app.
+
+CryptoPrice.js is responsible of retrieving real-time prices.
+
 CSVStreaM is responsible for read csv file and converting into object array.
